@@ -1,0 +1,184 @@
+[
+    {
+        "id" : 1,
+        "name" : "Monday",
+        "onThisDay":[ 
+            {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+             {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+             {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "name" : "Tuesday",
+        "onThisDay": {
+            "1":{
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "2": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "3": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "4": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "5": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            }
+        }
+    },
+    {
+        "id" : 3,
+        "name" : "Wednesday",
+        "onThisDay": {
+            "1":{
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "2": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "3": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "4": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "5": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            }
+        }
+    },
+    {
+        "id" : 4,
+        "name" : "Thursday",
+        "onThisDay": {
+            "1":{
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "2": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "3": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "4": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "5": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            }
+        }
+    },
+    {
+        "id" : 5,
+        "name" : "Friday",
+        "onThisDay": {
+            "1":{
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "2": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "3": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "4": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "5": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            }
+        }
+    },
+    {
+        "id" : 6,
+        "name" : "Saturday",
+        "onThisDay": {
+            "1":{
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "2": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "3": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "4": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "5": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            }
+        }
+    },
+    {
+        "id" : 7,
+        "name" : "Sunday",
+        "onThisDay": {
+            "1":{
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "2": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "3": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "4": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            },
+            "5": {
+                "name": "Kick Boxing",
+                "time": "9am - 11am"
+            }
+        }
+    }
+]
