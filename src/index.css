@@ -110,3 +110,6 @@ margin-bottom: 45px;
   color: red;
   
 }
+input:focus, input:focus, textarea, textarea:focus {
+  outline: 0;
+}

@@ -1,5 +1,8 @@
 import About from "./components/About"
+import Blog from "./components/Blog"
+import Contact from "./components/Contact"
 import Feedback from "./components/Feedback"
+import Footer from "./components/Footer"
 import Gallery from "./components/Gallery"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
@@ -23,6 +26,9 @@ function App() {
      <Members/>
      <OfferLine/>
      <Schedule/>
+     <Contact/>
+     <Blog/>
+     <Footer/>
     </>
   )
 }
