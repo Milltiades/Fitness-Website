@@ -42,10 +42,6 @@ export default function Schedule() {
       </Up>
               
         <Down>
-          {/* <Day>
-            <Time>9am-11am</Time>
-            <H2>Kick Boxing</H2>{" "}
-          </Day>
           <Day>
             <Time>9am-11am</Time>
             <H2>Kick Boxing</H2>{" "}
@@ -61,7 +57,11 @@ export default function Schedule() {
           <Day>
             <Time>9am-11am</Time>
             <H2>Kick Boxing</H2>{" "}
-          </Day> */}
+          </Day>
+          <Day>
+            <Time>9am-11am</Time>
+            <H2>Kick Boxing</H2>{" "}
+          </Day>
         
         </Down>
       </Content>
@@ -131,7 +131,7 @@ const Down = styled.div`
 
 const Content = styled.div`
   width: 1000px;
-  border: 1px solid black;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
