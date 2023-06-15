@@ -137,6 +137,9 @@ const Content = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  @media screen and (max-width: 1280px) {
+    max-width: 900px;
+  }
 `;
 const Div = styled.div`
   position: absolute;

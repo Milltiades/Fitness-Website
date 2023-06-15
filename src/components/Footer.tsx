@@ -1,7 +1,4 @@
-
 import { styled } from "styled-components";
-
-
 
 export default function Footer() {
   return (
@@ -65,17 +62,18 @@ export default function Footer() {
           <div>
             <img src="/assets/logo.png" alt="" />
             <P>
-              GThe trade war currently ensuing between the <br/>
-               US and several
-              nations around the <br/>
-               globe, most fiercely with
+              GThe trade war currently ensuing between the <br />
+              US and several nations around the <br />
+              globe, most fiercely with
             </P>
           </div>
         </Up>
         <Down>
-          <P>Copyright ©2023 All rights reserved | This template is made with <Heart className="material-symbols-outlined">
-favorite
-</Heart> by <Gedeon>Gedeon</Gedeon> </P>
+          <P>
+            Copyright ©2023 All rights reserved | This template is made with{" "}
+            <Heart className="material-symbols-outlined">favorite</Heart> by{" "}
+            <Gedeon>Gedeon</Gedeon>{" "}
+          </P>
         </Down>
       </Content>
     </Div>
@@ -88,18 +86,31 @@ const Down = styled.div`
   padding-top: 40px;
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 1280px) {
+    padding: 25px 0;
+    margin-top: 30px;
+  }
 `;
 const Up = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 150px 0 70px;
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+    padding: 0;
+   margin-top: 70px;
+  }
+   @media screen and (max-height:800px) {
+      padding:100px 0 50px;
+    }
 `;
 
 const Div = styled.div`
   width: 100%;
   position: absolute;
-  height: 53vh;
+  height: auto;
   top: 892vh;
   background: transparent;
   background-image: url("/assets/section_bg03.png");
@@ -111,12 +122,19 @@ const Div = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 `;
 
 const Content = styled.div`
   width: 1200px;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+    justify-content: space-between;
+    height: 100%;
+  }
 `;
 
 const Company = styled.ul`
@@ -148,35 +166,44 @@ const Company = styled.ul`
     transition: all 0.3s ease;
     color: white;
   }
+
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+    gap: 10px;
+    & li a {
+      font-size: 14px;
+    }
+  }
 `;
 const Open = styled(Company)``;
 
 const Resources = styled(Company)``;
 
-
 const P = styled.p`
-  
   line-height: 1.8;
-    margin-bottom: 30px;
-    padding-right: 0;
-    color: #c4c4c4;
-    font-size: 14px;
-    font-family: "Barlow", sans-serif;
-    font-weight: normal;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-`
+  margin-bottom: 30px;
+  padding-right: 0;
+  color: #c4c4c4;
+  font-size: 14px;
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 1280px) {
+    margin: 0;
+  }
+`;
 
 const Heart = styled.span`
-color: #ff1313;
-margin: 0 5px;
-`
+  color: #ff1313;
+  margin: 0 5px;
+`;
 const Gedeon = styled.span`
   color: #ff1313;
   line-height: 1.8;
-    font-size: 14px;
-    font-family: "Barlow", sans-serif;
-    font-weight: normal;
-    margin-left:5px ;
-`
+  font-size: 14px;
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  margin-left: 5px;
+`;

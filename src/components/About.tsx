@@ -56,6 +56,10 @@ const Content = styled.div`
   place-items: center;
   margin: auto;
   /* padding: 0 30px; */
+  @media screen and (max-width: 1250px) {
+    max-width: 1000px;
+  }
+   
 `;
 const Left = styled.div`
 width: 100%;
@@ -65,6 +69,9 @@ width: 100%;
   background-image: url("/assets/about.png");
   background-repeat: no-repeat;
   background-size: cover;
+  @media screen and (max-height:800px) {
+      height: 600px;
+    }
 `;
 const Right = styled.div`
   display: flex;

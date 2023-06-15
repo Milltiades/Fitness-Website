@@ -8,10 +8,10 @@ export default function Contact() {
         <Left></Left>
         <Right>
           <h4>contact form</h4>
-          <h1>
+          <H1>
             FEEL FREE TO CONTACT <br />
             WITH US!
-          </h1>
+          </H1>
           <Form action="">
             <Label htmlFor="">
               <input type="text" placeholder="Name"/>
@@ -137,4 +137,19 @@ const Right = styled.div`
   flex-direction: column;
   align-items: start;
   padding: 67px;
+  
+  @media screen and (max-width: 1280px){
+    width: 500px;
+    padding: 35px;
+  }
+ 
 `;
+
+const H1 = styled.h1`
+  font-size: 50px;
+    display: block;
+    color: #2c234d;
+    font-weight: 700;
+    text-transform: uppercase;
+
+`

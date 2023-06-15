@@ -76,6 +76,10 @@ const Content = styled.div`
   margin: auto;
   /* padding: 0 30px; */
   margin: 0 auto;
+  @media screen and (max-width: 1280px) {
+    width: 1000px;
+  }
+ 
   
 `;
 const Left = styled.div`

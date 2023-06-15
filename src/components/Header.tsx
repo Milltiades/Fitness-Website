@@ -46,6 +46,13 @@ const Div = styled.div`
   align-items: center;
   z-index: 1;
   position: absolute;
+  
+  @media screen and (max-width: 1280px) {
+    padding: 20px ;
+  }
+  @media screen and (max-height:800px) {
+      padding: 20px 
+    }
 `;
 
 const Nav = styled.nav`

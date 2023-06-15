@@ -73,4 +73,7 @@ const Content = styled.div`
   align-items: center;
   width: 1200px;
   padding: 100px 0 95px;
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+  }
 `;

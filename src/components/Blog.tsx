@@ -68,6 +68,13 @@ const H3 = styled.h3`
     margin-bottom: 20px;
     font-family: "Barlow",sans-serif;
     display: block;
+    
+    @media screen and (max-width:1280px) {
+      font-size: 20px;
+    }
+     @media screen and (max-height:800px) {
+      font-size: 18px;
+    }
 `
 
 const ContentDiv = styled.div`
@@ -77,6 +84,9 @@ const ContentDiv = styled.div`
   display: flex;
   flex-direction: column;
       padding: 37px 129px 37px 50px;
+      @media screen and (max-width: 1280px){
+        padding: 20px 0 0 30px;
+  }
 `;
 const BlogDiv = styled.div`
   width: 100%;
@@ -110,6 +120,14 @@ const ImgDiv = styled.div`
     bottom: 0;
     left: 0;
   }
+
+   @media screen and (max-height: 800px) {
+   height: 30vh;
+   &::before {
+    width: 60px;
+    height: 60px;
+   }
+  }
 `;
 
 const ImgDiv2 = styled(ImgDiv)`
@@ -121,6 +139,9 @@ const Content = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 1280px){
+    max-width: 1200px;
+  }
 `;
 
 const Up = styled.div`

@@ -42,6 +42,10 @@ const Content = styled.div`
   flex-direction: column;
 
   margin: 0 auto;
+
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+  }
 `;
 const Up = styled.div`
   display: flex;
@@ -99,6 +103,10 @@ const Down = styled.div`
   gap: 30px;
   width: 100%;
   margin-top: 95px;
+   @media screen and (max-height: 800px) {
+   max-width: 800px;
+   margin: 40px auto 10px;
+  }
 `;
 
 const Member1 = styled.div`
@@ -138,6 +146,17 @@ const Member1 = styled.div`
   &:hover::after {
     background: #ff1313;
     transform: translateY(0);
+  }
+
+  @media screen and (max-width: 1280px) {
+    height: 400px;
+  }
+   @media screen and (max-height: 800px) {
+    height: 350px;
+    width: 40%;
+    &::after{
+      height: 90px;
+    }
   }
 `;
 

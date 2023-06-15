@@ -65,6 +65,9 @@ const Card = styled.div`
     background: #ff1313;
     transform: translateY(0);
   }
+   @media screen and (max-height: 800px) {
+    height: 300px;
+  }
 `;
 
 const H1 = styled.h1`
@@ -85,6 +88,13 @@ const Up = styled.div`
   width: 1200px;
   align-items: end;
   padding: 100px 0 95px;
+
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+  }
+   @media screen and (max-height: 800px) {
+    padding: 50px 0 40px;
+  }
 `;
 const Down = styled.div`
   width: 1200px;
@@ -92,6 +102,9 @@ const Down = styled.div`
   flex-direction: row;
   justify-content: space-between;
   gap: 30px;
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+  }
 `;
 const Div = styled.div`
   width: 100%;

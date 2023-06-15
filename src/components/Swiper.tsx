@@ -48,6 +48,11 @@ export default function SwiperComponent() {
 
 const SwiperStyled = styled(Swiper)`
   width: 450px;
+ @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+    width: 430px;
+    margin-left: 105px;
+  }
 `;
 
 

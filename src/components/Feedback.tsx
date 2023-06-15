@@ -38,6 +38,9 @@ const Content = styled.div`
   width: 1200px;
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
+  @media screen and (max-width: 1280px) {
+    max-width: 1000px;
+  }
 `;
 const Left = styled.div`
   width: 100%;

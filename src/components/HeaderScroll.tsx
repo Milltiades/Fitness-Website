@@ -48,6 +48,14 @@ const Div = styled(motion.div)`
   z-index: 1000000000;
   position: fixed;
   top: 0;
+
+  @media screen and (max-width: 1280px) {
+    padding: 20px ;
+  }
+
+   @media screen and (max-height:800px) {
+      padding: 20px 
+    }
 `;
 
 const Nav = styled.nav`

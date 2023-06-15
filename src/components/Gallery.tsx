@@ -109,6 +109,7 @@ const Div = styled.div`
   position: absolute;
   top: 396vh;
   background: transparent;
+  overflow-x: hidden;
 `;
 
 const Content = styled.div`
@@ -155,6 +156,11 @@ const Div1 = styled.div`
   &:hover .inside {
     display: flex;
   }
+
+  @media screen and (max-width: 1280px) {
+    height: 70vh;
+    overflow-x: hidden;
+  }
 `;
 
 const Div2 = styled.div`
@@ -180,6 +186,7 @@ const Div2 = styled.div`
   &:hover .inside {
     display: flex;
   }
+ 
 `;
 const Div3 = styled(Div2)`
   background-image: url("/assets/gallery3.png");
