@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import ButtonComponent from "./ButtonComponent";
+import { motion } from "framer-motion";
 
-export default function Header() {
+export default function HeaderScroll() {
   return (
     <Div>
       <img src="/assets/logo.png" alt="" />
@@ -35,17 +36,18 @@ export default function Header() {
   );
 }
 
-const Div = styled.div`
+const Div = styled(motion.div)`
   width: 100%;
   padding: 20px 130px;
-  background: transparent;
+  background: black;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
-  position: absolute;
+  z-index: 1000000000;
+  position: fixed;
+  top: 0;
 `;
 
 const Nav = styled.nav`

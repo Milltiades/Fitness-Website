@@ -1,23 +1,182 @@
-import React from 'react'
-import { styled } from 'styled-components'
+
+import { styled } from "styled-components";
+
+
 
 export default function Footer() {
   return (
-    <Div>Footer</Div>
-  )
+    <Div>
+      <Content>
+        <Up>
+          <Company>
+            <li>
+              <h3>COMPANY</h3>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">Company</a>
+            </li>
+            <li>
+              <a href="">Press & Blog</a>
+            </li>
+            <li>
+              <a href="">Privacy policy</a>
+            </li>
+          </Company>
+          <Open>
+            <li>
+              <h3>OPEN HOUR</h3>
+            </li>
+            <li>
+              <a href="">Monday 11am-7pm</a>
+            </li>
+            <li>
+              <a href="">Tuesday-Friday 11am-8pm</a>
+            </li>
+            <li>
+              <a href="">Saturday 10am-6pm</a>
+            </li>
+            <li>
+              <a href="">Sunday 11am-6pm</a>
+            </li>
+          </Open>
+          <Resources>
+            <li>
+              <h3>RESOURCES</h3>
+            </li>
+            <li>
+              <a href="">Home Insurance</a>
+            </li>
+            <li>
+              <a href="">Travel Insurance</a>
+            </li>
+            <li>
+              <a href="">Car Insurance</a>
+            </li>
+            <li>
+              <a href="">Business Insurance</a>
+            </li>
+            <li>
+              <a href="">Heal Insurance</a>
+            </li>
+          </Resources>
+          <div>
+            <img src="/assets/logo.png" alt="" />
+            <P>
+              GThe trade war currently ensuing between the <br/>
+               US and several
+              nations around the <br/>
+               globe, most fiercely with
+            </P>
+          </div>
+        </Up>
+        <Down>
+          <P>Copyright ©2023 All rights reserved | This template is made with <Heart className="material-symbols-outlined">
+favorite
+</Heart> by <Gedeon>Gedeon</Gedeon> </P>
+        </Down>
+      </Content>
+    </Div>
+  );
 }
-
+const Down = styled.div`
+  width: 100%;
+  border-top: 1px solid #1f2024;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+`;
+const Up = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 150px 0 70px;
+`;
 
 const Div = styled.div`
-    width: 100%;
-    position: absolute;
-    height: 64vh;
-    top: 892vh;
-    background: transparent;
-    background-image: url('/assets/section_bg03.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  width: 100%;
+  position: absolute;
+  height: 53vh;
+  top: 892vh;
+  background: transparent;
+  background-image: url("/assets/section_bg03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
 
+const Content = styled.div`
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+`;
+
+const Company = styled.ul`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  & li h3 {
+    color: #fff;
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+    margin-bottom: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  & li a {
+    text-decoration: none;
+
+    color: #c4c4c4;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+  }
+  & li {
+    list-style: none;
+  }
+  & li a:hover {
+    margin-left: 5px;
+    transition: all 0.3s ease;
+    color: white;
+  }
+`;
+const Open = styled(Company)``;
+
+const Resources = styled(Company)``;
+
+
+const P = styled.p`
+  
+  line-height: 1.8;
+    margin-bottom: 30px;
+    padding-right: 0;
+    color: #c4c4c4;
+    font-size: 14px;
+    font-family: "Barlow", sans-serif;
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+`
+
+const Heart = styled.span`
+color: #ff1313;
+margin: 0 5px;
+`
+const Gedeon = styled.span`
+  color: #ff1313;
+  line-height: 1.8;
+    font-size: 14px;
+    font-family: "Barlow", sans-serif;
+    font-weight: normal;
+    margin-left:5px ;
 `
