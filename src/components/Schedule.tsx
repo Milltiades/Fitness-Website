@@ -114,6 +114,9 @@ const Day = styled.div`
   &:hover {
     background: #ff1313;
   }
+    @media screen and (max-height: 800px){
+  height: 180px;
+}
 `;
 
 const Up = styled.div`
@@ -140,6 +143,10 @@ const Content = styled.div`
   @media screen and (max-width: 1280px) {
     max-width: 900px;
   }
+    @media screen and (max-height: 800px){
+  max-width: 800px;
+}
+
 `;
 const Div = styled.div`
   position: absolute;
