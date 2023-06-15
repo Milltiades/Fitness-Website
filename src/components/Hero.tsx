@@ -79,6 +79,11 @@ const Content = styled.div`
   @media screen and (max-width: 1280px) {
     width: 1000px;
   }
+  @media screen and (max-width:600px) {
+width: 100%;
+grid-template-columns: 1fr;
+padding: 0 20px;
+  }
  
   
 `;
@@ -86,6 +91,9 @@ const Left = styled.div`
   width: 100%;
   height: 400px;
   overflow: hidden;
+  @media screen and (max-width:600px) {
+height: auto;
+  }
 `;
 const Right = styled.div`
 display: flex;
@@ -94,4 +102,8 @@ justify-content: end;
 align-items: center;
 width: 100%;
 height: 400px;
+@media screen and (max-width:600px) {
+margin-top: 70px;
+height: auto;
+  }
 `;

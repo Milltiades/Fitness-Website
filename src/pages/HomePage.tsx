@@ -20,9 +20,9 @@ export default function HomePage() {
     <Gallery/>
     <Members/>
     <OfferLine/>
-    <Schedule/>
-    <Contact/>
-    <Blog/>
+    {/* <Schedule/> */}
+    {/* <Contact/> */}
+    {/* <Blog/> */}
     </>
   )
 }

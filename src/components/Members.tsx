@@ -34,6 +34,10 @@ const Div = styled.div`
   background: transparent;
   width: 100%;
   padding-bottom: 100px;
+  @media screen and (max-width: 600px) {
+    top: 600vh;
+    padding:50px 20px ;
+  }
 `;
 
 const Content = styled.div`
@@ -46,12 +50,19 @@ const Content = styled.div`
   @media screen and (max-width: 1280px) {
     max-width: 1000px;
   }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;
 const Up = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
+  @media screen and (max-width: 600px) {
+   flex-direction: column;
+   align-items: start;
+  }
 `;
 
 const Text = styled.div`
@@ -107,6 +118,10 @@ const Down = styled.div`
    max-width: 800px;
    margin: 40px auto 10px;
   }
+  @media screen and (max-width: 600px) {
+   margin: 20px 0;
+   gap: 10px;
+  }
 `;
 
 const Member1 = styled.div`
@@ -157,6 +172,11 @@ const Member1 = styled.div`
     &::after{
       height: 90px;
     }
+  }
+  @media screen and (max-width: 600px) {
+  &::after {
+    display: none;
+  }
   }
 `;
 

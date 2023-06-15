@@ -56,6 +56,9 @@ const Div = styled(motion.div)`
    @media screen and (max-height:800px) {
       padding: 20px 
     }
+    @media screen and (max-width: 600px){
+    display: none;
+  }
 `;
 
 const Nav = styled.nav`

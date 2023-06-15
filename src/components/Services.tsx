@@ -68,17 +68,26 @@ const Card = styled.div`
    @media screen and (max-height: 800px) {
     height: 300px;
   }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 const H1 = styled.h1`
   color: white;
   font-size: 50px;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }font-size: 2rem
 `;
 
 const Left = styled.div`
   width: 1200px;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;
 const Up = styled.div`
   display: flex;
@@ -91,9 +100,14 @@ const Up = styled.div`
 
   @media screen and (max-width: 1280px) {
     max-width: 1000px;
+    flex-direction: column;
   }
    @media screen and (max-height: 800px) {
     padding: 50px 0 40px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    align-items: start;
   }
 `;
 const Down = styled.div`
@@ -105,13 +119,18 @@ const Down = styled.div`
   @media screen and (max-width: 1280px) {
     max-width: 1000px;
   }
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
 `;
 const Div = styled.div`
   width: 100%;
   height: 114vh;
   background: black;
   position: absolute;
-  top: 188vh;
+  top: 237.5vh;
   background-image: url("/assets/services.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,6 +139,12 @@ const Div = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (max-width: 600px) {
+    padding: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    height: 200vh;
+  }
 `;
 
 const Button = styled.button`

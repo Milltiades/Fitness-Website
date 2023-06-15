@@ -53,6 +53,10 @@ const SwiperStyled = styled(Swiper)`
     width: 430px;
     margin-left: 105px;
   }
+  @media screen and (max-width: 600px) {
+   
+    max-width: 340px;
+  }
 `;
 
 

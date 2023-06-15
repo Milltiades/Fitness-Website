@@ -17,7 +17,9 @@ export default function OfferLine() {
 const H1 = styled.h1`
  color: white;
   font-size: 50px;
-    
+     @media screen and (max-width: 600px) {
+   font-size: 2rem;
+  }
 `
 
 const Button = styled.button`
@@ -64,6 +66,9 @@ const Div = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+   @media screen and (max-width: 600px) {
+    top: 690vh;
+  }
 `;
 
 const Content = styled.div`
@@ -75,5 +80,11 @@ const Content = styled.div`
   padding: 100px 0 95px;
   @media screen and (max-width: 1280px) {
     max-width: 1000px;
+  }
+   @media screen and (max-width: 600px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 20px;
   }
 `;

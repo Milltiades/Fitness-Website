@@ -75,12 +75,18 @@ const H3 = styled.h1`
   font-size: 30px;
 
   margin-top: 25px;
+   @media screen and (max-width:600px) {
+    display: none;
+  }
 `;
 const P = styled.p`
   font-size: 14px;
   font-weight: normal;
   color: white;
   transform: translateY(-35px);
+   @media screen and (max-width:600px) {
+    display: none;
+  }
 `;
 
 const Button = styled.button`
@@ -110,12 +116,23 @@ const Div = styled.div`
   top: 396vh;
   background: transparent;
   overflow-x: hidden;
+
+  @media screen and (max-width:600px) {
+    top: 550vh;
+    height: auto;
+  }
 `;
 
 const Content = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+   @media screen and (max-width:600px) {
+   gap: 10px;
+   overflow-x: hidden;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  1fr 0.7fr;
+  }
 `;
 const Inside = styled.div`
   display: none;
@@ -160,6 +177,12 @@ const Div1 = styled.div`
   @media screen and (max-width: 1280px) {
     height: 70vh;
     overflow-x: hidden;
+  }
+   @media screen and (max-width:600px) {
+   height: 30vh;
+   overflow-x: hidden;
+   grid-column: 1 / 3;
+  grid-row: 1 / 2;
   }
 `;
 

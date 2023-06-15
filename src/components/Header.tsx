@@ -53,12 +53,18 @@ const Div = styled.div`
   @media screen and (max-height:800px) {
       padding: 20px 
     }
+    @media screen and (max-width: 600px){
+    width: 100%;
+  }
 `;
 
 const Nav = styled.nav`
   display: flex;
   flex-direction: row;
   align-items: center;
+  @media screen and (max-width: 600px){
+    display: none;
+  }
 `;
 
 const Li = styled.li`
