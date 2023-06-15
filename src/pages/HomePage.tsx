@@ -6,9 +6,9 @@ import Feedback from '../components/Feedback'
 import Gallery from '../components/Gallery'
 import Members from '../components/Members'
 import OfferLine from '../components/OfferLine'
-import Schedule from '../components/Schedule'
-import Contact from '../components/Contact'
-import Blog from '../components/Blog'
+// import Schedule from '../components/Schedule'
+// import Contact from '../components/Contact'
+// import Blog from '../components/Blog'
 
 export default function HomePage() {
   return (
