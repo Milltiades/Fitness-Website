@@ -142,6 +142,7 @@ const Content = styled.div`
   @media screen and (max-width: 1280px){
     max-width: 1200px;
   }
+  
 `;
 
 const Up = styled.div`
@@ -171,4 +172,7 @@ const Div = styled.div`
   align-items: center;
   padding: 195px 180px;
   top: 792vh;
+  @media screen and (max-height: 800px){
+    padding: 50px 40px;
+  }
 `;

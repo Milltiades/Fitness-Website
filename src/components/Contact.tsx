@@ -62,12 +62,16 @@ const Button = styled.button`
   &:hover::before {
     transform: scaleX(100%);
   }
+ 
 `;
 
 const Form = styled.form`
     display: flex;
     flex-direction: column;
     gap: 30px;
+     @media screen and (max-height: 800px){
+gap: 10px;
+}
 `
 
 const Label = styled.label`
@@ -89,6 +93,9 @@ const Label = styled.label`
     font-size: 16px;
     font-family: 'Teko', sans-serif;
     }
+     @media screen and (max-height: 800px){
+  height: 50px
+}
   
 `
 const Textarea = styled.textarea`
@@ -103,7 +110,9 @@ color: #112957;
     border: 0;
     border-radius: 0px;
     border-bottom: 2px solid #e9f0f4;
-   
+     @media screen and (max-height: 800px){
+  margin-bottom: 30px;
+}
     `
 
 const Div = styled.div`
@@ -128,6 +137,7 @@ const Left = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
 `;
 
 const Right = styled.div`
@@ -142,6 +152,10 @@ const Right = styled.div`
     width: 500px;
     padding: 35px;
   }
+  @media screen and (max-height: 800px){
+  height: 75vh;
+  padding: 35px;
+}
  
 `;
 
@@ -151,5 +165,8 @@ const H1 = styled.h1`
     color: #2c234d;
     font-weight: 700;
     text-transform: uppercase;
-
+ @media screen and (max-height: 800px){
+  font-size: 40px;
+  margin-bottom: 0;
+}
 `
