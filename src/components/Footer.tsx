@@ -129,7 +129,7 @@ const Div = styled.div`
   justify-content: center;
   align-items: center;
    @media screen and (max-width: 600px){
-    top: 1020vh ;
+    top: 1030vh ;
     height: auto;
     flex-direction: column;
     width: 100%;

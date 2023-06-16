@@ -49,6 +49,7 @@ const Div = styled.div`
   align-items: center;
   @media screen and (max-width: 600px) {
     top: 94vh;
+
   }
 `;
 const Content = styled.div`

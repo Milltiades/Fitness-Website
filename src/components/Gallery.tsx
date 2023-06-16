@@ -118,7 +118,7 @@ const Div = styled.div`
   overflow-x: hidden;
 
   @media screen and (max-width:600px) {
-    top: 550vh;
+    top: 565vh;
     height: auto;
   }
 `;

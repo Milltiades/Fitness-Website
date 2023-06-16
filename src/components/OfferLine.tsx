@@ -67,7 +67,7 @@ const Div = styled.div`
   justify-content: center;
   align-items: center;
    @media screen and (max-width: 600px) {
-    top: 695vh;
+    top: 710vh;
   }
 `;
 

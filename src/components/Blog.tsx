@@ -183,7 +183,7 @@ const Div = styled.div`
   }
   @media screen and (max-width: 600px){
     flex-direction: column;
-    top: 890vh;
+    top: 905vh;
     padding: 20px;
   }
   

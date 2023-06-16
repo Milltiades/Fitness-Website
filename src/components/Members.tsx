@@ -35,7 +35,7 @@ const Div = styled.div`
   width: 100%;
   padding-bottom: 100px;
   @media screen and (max-width: 600px) {
-    top: 600vh;
+    top: 615vh;
     padding:50px 20px ;
   }
 `;

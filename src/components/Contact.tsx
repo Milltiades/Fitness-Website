@@ -125,7 +125,7 @@ const Div = styled.div`
   height: 94vh;
   background: transparent;
   @media screen and (max-width:600px){
-    top: 730vh;
+    top: 745vh;
     height: auto;
   }
 `;
