@@ -30,7 +30,7 @@ const Div = styled.div`
   align-items: center;
   position: absolute;
   height: 94vh;
-  top: 490vh;
+  top: 540vh;
   background: transparent;
   width: 100%;
   padding-bottom: 100px;

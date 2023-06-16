@@ -121,7 +121,7 @@ color: #112957;
 const Div = styled.div`
   width: 100%;
   position: absolute;
-  top: 698vh;
+  top: 748vh;
   height: 94vh;
   background: transparent;
   @media screen and (max-width:600px){

@@ -153,7 +153,7 @@ const Content = styled.div`
 `;
 const Div = styled.div`
   position: absolute;
-  top: 614vh;
+  top: 664vh;
   width: 100%;
   background: transparent;
   display: flex;

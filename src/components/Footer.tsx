@@ -117,7 +117,7 @@ const Div = styled.div`
   width: 100%;
   position: absolute;
   height: auto;
-  top: 892vh;
+  top: 942vh;
   background: transparent;
   background-image: url("/assets/section_bg03.png");
   background-repeat: no-repeat;

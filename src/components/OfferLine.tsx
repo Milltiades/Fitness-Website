@@ -61,7 +61,7 @@ const Div = styled.div`
   position: absolute;
   width: 100%;
   height: 30vh;
-  top: 584vh;
+  top: 634vh;
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -113,7 +113,7 @@ const Div = styled.div`
   width: 100%;
   height: 94vh;
   position: absolute;
-  top: 396vh;
+  top: 446vh;
   background: transparent;
   overflow-x: hidden;
 

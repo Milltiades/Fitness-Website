@@ -177,7 +177,7 @@ const Div = styled.div`
   justify-content: center;
   align-items: center;
   padding: 195px 180px;
-  top: 792vh;
+  top: 842vh;
   @media screen and (max-height: 800px){
     padding: 50px 40px;
   }

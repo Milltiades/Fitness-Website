@@ -31,7 +31,7 @@ const H1 = styled.h1`
 
 const Div = styled.div`
   position: absolute;
-  top: 302vh;
+  top: 352vh;
   display: grid;
   align-items: center;
   width: 100%;
