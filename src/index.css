@@ -84,6 +84,7 @@ h4::before {
   position: absolute ;
   z-index: 2;
   transition: all .3s ease;
+  overflow: hidden;
 }
 .circle:hover {
   background: white;
@@ -96,6 +97,7 @@ h4::before {
   border-radius: 50%;
   position: absolute;
   z-index: 0;
+  overflow: hidden;
 }
 
 
