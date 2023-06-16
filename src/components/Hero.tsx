@@ -67,6 +67,7 @@ const Div = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+   overflow-x: hidden;
 `;
 const Content = styled.div`
   width: 1200px;
@@ -76,6 +77,7 @@ const Content = styled.div`
   margin: auto;
   /* padding: 0 30px; */
   margin: 0 auto;
+  overflow-x: hidden;
   @media screen and (max-width: 1280px) {
     width: 1000px;
   }
