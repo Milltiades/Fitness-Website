@@ -102,6 +102,7 @@ justify-content: end;
 align-items: center;
 width: 100%;
 height: 400px;
+overflow-x: hidden;
 @media screen and (max-width:600px) {
 margin-top: 70px;
 height: auto;
