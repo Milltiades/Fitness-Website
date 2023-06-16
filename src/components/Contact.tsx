@@ -72,6 +72,9 @@ const Form = styled.form`
      @media screen and (max-height: 800px){
 gap: 10px;
 }
+@media screen and (max-width:600px){
+  gap: 10px;
+  }
 `
 
 const Label = styled.label`
@@ -121,6 +124,10 @@ const Div = styled.div`
   top: 698vh;
   height: 94vh;
   background: transparent;
+  @media screen and (max-width:600px){
+    top: 730vh;
+    height: auto;
+  }
 `;
 const Content = styled.div`
   width: 100%;
@@ -128,7 +135,9 @@ const Content = styled.div`
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  
+  @media screen and (max-width:600px){
+   flex-direction: column;
+  }
 `;
 const Left = styled.div`
   width: 50%;
@@ -137,7 +146,10 @@ const Left = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+@media screen and (max-width:600px){
+   width: 100%;
+   height: 50vh;
+  }
 `;
 
 const Right = styled.div`
@@ -156,6 +168,11 @@ const Right = styled.div`
   height: 75vh;
   padding: 35px;
 }
+@media screen and (max-width:600px){
+   width: 100%;
+   height: auto;
+   padding: 20px;
+  }
  
 `;
 
@@ -169,4 +186,7 @@ const H1 = styled.h1`
   font-size: 40px;
   margin-bottom: 0;
 }
+@media screen and (max-width:600px){
+   font-size: 2rem;
+  }
 `

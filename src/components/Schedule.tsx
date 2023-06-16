@@ -123,6 +123,7 @@ const Up = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(7, 0.7fr);
+
 `;
 const Down = styled.div`
   margin-top: 15px;
@@ -130,6 +131,7 @@ const Down = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 15px;
+
 `;
 
 const Content = styled.div`
@@ -147,6 +149,7 @@ const Content = styled.div`
   max-width: 800px;
 }
 
+
 `;
 const Div = styled.div`
   position: absolute;
@@ -158,4 +161,8 @@ const Div = styled.div`
   justify-content: center;
   align-items: center;
   height: 84vh;
+
+  @media (max-width:600px) {
+   display: none;
+  }
 `;

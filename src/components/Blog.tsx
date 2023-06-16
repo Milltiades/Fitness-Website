@@ -142,7 +142,9 @@ const Content = styled.div`
   @media screen and (max-width: 1280px){
     max-width: 1200px;
   }
-  
+   @media screen and (max-width: 600px){
+    width: 100%;
+   }
 `;
 
 const Up = styled.div`
@@ -159,6 +161,10 @@ const Down = styled.div`
   justify-content: center;
   gap: 30px;
   width: 100%;
+   @media screen and (max-width: 600px){
+    gap: 10px;
+    flex-direction: column;
+  }
 `;
 
 const Div = styled.div`
@@ -175,4 +181,10 @@ const Div = styled.div`
   @media screen and (max-height: 800px){
     padding: 50px 40px;
   }
+  @media screen and (max-width: 600px){
+    flex-direction: column;
+    top: 890vh;
+    padding: 20px;
+  }
+  
 `;

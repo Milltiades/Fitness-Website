@@ -91,6 +91,8 @@ const Down = styled.div`
     padding: 25px 0;
     margin-top: 30px;
   }
+    
+  
 `;
 const Up = styled.div`
   width: 100%;
@@ -105,6 +107,10 @@ const Up = styled.div`
    @media screen and (max-height:800px) {
       padding:100px 0 50px;
     }
+     @media screen and (max-width: 600px){
+    grid-template-columns: 1fr;
+    padding-top: 0px;
+  }
 `;
 
 const Div = styled.div`
@@ -122,7 +128,14 @@ const Div = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
+   @media screen and (max-width: 600px){
+    top: 1020vh ;
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    overflow-x: hidden;
+  }
 `;
 
 const Content = styled.div`
@@ -135,6 +148,9 @@ const Content = styled.div`
     justify-content: space-between;
     height: 100%;
   }
+   @media screen and (max-width: 600px){
+    width: 100%;
+  }
 `;
 
 const Company = styled.ul`
@@ -142,6 +158,7 @@ const Company = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 15px;
+  overflow-x: hidden;
   & li h3 {
     color: #fff;
     font-family: "Teko", sans-serif;
@@ -174,10 +191,16 @@ const Company = styled.ul`
       font-size: 14px;
     }
   }
+  @media screen and (max-width: 600px) {
+    margin-bottom: 20px;
+  }
 `;
 const Open = styled(Company)``;
 
-const Resources = styled(Company)``;
+const Resources = styled(Company)`
+
+
+  `;
 
 const P = styled.p`
   line-height: 1.8;

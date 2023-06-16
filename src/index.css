@@ -123,3 +123,20 @@ input:focus, input:focus, textarea, textarea:focus {
   outline: 0;
 }
 
+.menu-li{
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 20px 0;
+ 
+}
+.menu-li:hover{
+  opacity: 0.5;
+  transition: all .3s ease;
+}
+.menu-li a{
+  color: white;
+  text-decoration: none;
+  
+}
